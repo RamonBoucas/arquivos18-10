@@ -1,0 +1,7 @@
+professor , fiz o código do mergeSort e após algumas tentativas e erros , parece ser um código conforme explicado em sala
+, observei o ultimo arquivo que ele gera , que com o código atual é o sai698.dat e o esse arquivo parece estar ordenado por cep
+,porém usei um programa que eu fiz chamado igualdade.c que testa 2 arquivos  e verifica se estao iguais byte por byte
+,e usei para testar se o sai698.dat está igual ao cep_ordenado.dat ,o programa acusa que varios bytes nao estao iguais 
+, ao analisar ambos os arquivos de cep ,cep.dat e cep_ordenado.dat , percebi que , em alguns casos , há mais de um registro com mesmo cep
+, e de acordo com o que entendi ,na ordenaçao , a cada execuçao do algoritmo a ordem dos arquivos de mesmo cep nao eh deterministica 
+, acredito que esse seja o motivo da desigualdade entre os arquivos .
